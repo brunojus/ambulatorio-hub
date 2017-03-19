@@ -1,4 +1,4 @@
-# Single Page Application with Laravel 5.4 and Vue.js 2 - Recipe Box
+# Projeto ambulatório dermatologia HUB
 
 ### Frameworks and Libraries:
 
@@ -15,17 +15,3 @@
 - CRUD
 
 
-![alt tag](https://github.com/codekerala/laravel-and-vue.js-spa-Recipe-Box/raw/master/s1.png)
-
-### Installation
-`git clone https://github.com/codekerala/laravel-and-vue.js-spa-Recipe-Box.git`
-
-`laravel-and-vue.js-spa-Recipe-Box`
-
-`composer install`
-
-`npm install`
-
-### On Youtube
-
-Development: https://youtu.be/LZcwmzTdcLE
