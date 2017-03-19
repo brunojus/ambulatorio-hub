@@ -1,6 +1,6 @@
 <template>
     <form class="form" @submit.prevent="login">
-        <h1 class="form__title">Welcome back!</h1>
+        <h1 class="form__title">Login</h1>
         <div class="form__group">
             <label>Email</label>
             <input type="text" class="form__control" v-model="form.email">
@@ -41,7 +41,7 @@
                             // set token
                             Auth.set(res.data.api_token, res.data.user_id)
                             Flash.setSuccess('You have successfully logged in.')
-                            this.$router.push('/')
+                            this.$router.push('/recipes')
                         }
                         this.isProcessing = false
                     })

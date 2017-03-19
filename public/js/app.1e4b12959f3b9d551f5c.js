@@ -11461,7 +11461,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     // set token
                     __WEBPACK_IMPORTED_MODULE_1__store_auth__["a" /* default */].set(res.data.api_token, res.data.user_id);
                     __WEBPACK_IMPORTED_MODULE_0__helpers_flash__["a" /* default */].setSuccess('You have successfully logged in.');
-                    _this.$router.push('/');
+                    _this.$router.push('/recipes');
                 }
                 _this.isProcessing = false;
             }).catch(function (err) {
@@ -11904,7 +11904,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
 
 var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
 	mode: 'history',
-	routes: [{ path: '/', component: __WEBPACK_IMPORTED_MODULE_4__views_Recipe_Index_vue___default.a }, { path: '/recipes/create', component: __WEBPACK_IMPORTED_MODULE_6__views_Recipe_Form_vue___default.a, meta: { mode: 'create' } }, { path: '/recipes/:id/edit', component: __WEBPACK_IMPORTED_MODULE_6__views_Recipe_Form_vue___default.a, meta: { mode: 'edit' } }, { path: '/recipes/:id', component: __WEBPACK_IMPORTED_MODULE_5__views_Recipe_Show_vue___default.a }, { path: '/register', component: __WEBPACK_IMPORTED_MODULE_3__views_Auth_Register_vue___default.a }, { path: '/login', component: __WEBPACK_IMPORTED_MODULE_2__views_Auth_Login_vue___default.a }, { path: '/not-found', component: __WEBPACK_IMPORTED_MODULE_7__views_NotFound_vue___default.a }, { path: '*', component: __WEBPACK_IMPORTED_MODULE_7__views_NotFound_vue___default.a }]
+	routes: [{ path: '/', component: __WEBPACK_IMPORTED_MODULE_2__views_Auth_Login_vue___default.a }, { path: '/recipes', component: __WEBPACK_IMPORTED_MODULE_4__views_Recipe_Index_vue___default.a }, { path: '/recipes/create', component: __WEBPACK_IMPORTED_MODULE_6__views_Recipe_Form_vue___default.a, meta: { mode: 'create' } }, { path: '/recipes/:id/edit', component: __WEBPACK_IMPORTED_MODULE_6__views_Recipe_Form_vue___default.a, meta: { mode: 'edit' } }, { path: '/recipes/:id', component: __WEBPACK_IMPORTED_MODULE_5__views_Recipe_Show_vue___default.a }, { path: '/register', component: __WEBPACK_IMPORTED_MODULE_3__views_Auth_Register_vue___default.a }, { path: '/login', component: __WEBPACK_IMPORTED_MODULE_2__views_Auth_Login_vue___default.a }, { path: '/not-found', component: __WEBPACK_IMPORTED_MODULE_7__views_NotFound_vue___default.a }, { path: '*', component: __WEBPACK_IMPORTED_MODULE_7__views_NotFound_vue___default.a }]
 });
 
 /* harmony default export */ __webpack_exports__["a"] = router;
@@ -12288,7 +12288,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('h1', {
     staticClass: "form__title"
-  }, [_vm._v("Welcome back!")]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Login")]), _vm._v(" "), _c('div', {
     staticClass: "form__group"
   }, [_c('label', [_vm._v("Email")]), _vm._v(" "), _c('input', {
     directives: [{
@@ -12387,7 +12387,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/"
     }
-  }, [_vm._v("Recipe Box")])], 1), _vm._v(" "), _c('ul', {
+  }, [_vm._v("Doce Desafio")])], 1), _vm._v(" "), _c('ul', {
     staticClass: "navbar__list"
   }, [(_vm.guest) ? _c('li', {
     staticClass: "navbar__item"

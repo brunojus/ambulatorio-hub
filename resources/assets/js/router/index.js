@@ -13,7 +13,8 @@ Vue.use(VueRouter)
 const router = new VueRouter({
 	mode: 'history',
 	routes: [
-		{ path: '/', component: RecipeIndex },
+		{ path: '/', component: Login },
+		{ path: '/recipes', component: RecipeIndex },
 		{ path: '/recipes/create', component: RecipeForm, meta: { mode: 'create' }},
 		{ path: '/recipes/:id/edit', component: RecipeForm, meta: { mode: 'edit' }},
 		{ path: '/recipes/:id', component: RecipeShow },

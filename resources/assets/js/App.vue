@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="navbar">
 			<div class="navbar__brand">
-				<router-link to="/">Recipe Box</router-link>
+				<router-link to="/">Doce Desafio</router-link>
 			</div>
 			<ul class="navbar__list">
 				<li class="navbar__item"  v-if="guest">
